@@ -1,0 +1,131 @@
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape:first-child {
+    background-color: #ad1899;
+    left: -80px;
+    top: -80px;
+}
+
+.shape:last-child {
+    background-color: #ff512f;
+    right: -30px;
+    bottom: -80px;
+}
+
+form {
+    height: auto;
+    width: 400px;
+    background-color: #f0f0f0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 50px 35px;
+}
+
+form * {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+form h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.social {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social div {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.social div:hover {
+    background-color: #0056b3;
+}
+
+.social i {
+    margin-right: 4px;
+}
